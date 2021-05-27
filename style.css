@@ -1,0 +1,150 @@
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+#menu{
+	background: blue;
+	padding: 5px 15px;
+	color:white; <!--este es el color de las letras en los p ---->
+
+}
+#menu li{
+    color:red;
+    position: relative;
+	display: inline-block;
+	list-style: none;
+	padding: 15px;
+	font: bold 20px verdana,sans-serif;
+}
+body {
+	background:  url("img/1.jpg") repeat scroll 0 0 rgba(0,0,0,0);
+	font-family:"Josefin Sans",sans-serif;
+}
+#wrapper {
+	box-shadow: 0 0 12px rgba(0,0,0,0);
+	margin:0 auto;
+	max-width: 100% !important;
+	width: 100% !important;
+}
+section {
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	margin:0 auto;
+	max-width: 1440px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+    width: : 100% !important;
+
+}
+#bloque1 {
+	background-image:url("img/SOPORTE.png"); <!--ESTE ES LA PRIMERA IMAGEN>
+}
+#bloque2 {
+	background-image:url("img/2.jpg");<!--ESTE ES segunda imagen IMAGEN>
+}
+#bloque3 {
+	background-image:url("img/MTTO.jpg");
+}
+#bloque4 {
+	background-image:url("img/5.jpg");
+}
+h1 {
+	background-color: blue; <!--este es el color de los h1 en bienvenidos---->
+	bottom: 0;
+	color:rgba(255,255,255,0.9);
+	display: block;
+	font-size: 5em;
+	font: weight: bold;
+	margin-top: 3em;
+	opacity: 0.70;
+	text-align:center;
+	text-shadow: 1px 1px 1px #666 ;
+	text-transform: uppercase;
+	width: 100%;
+    
+}
+h2 {
+	color:blue;           <!--este es el color de los h2 en en ---->
+	font-size: 1em auto;  <!--este es el tamaño del recuadro gris donde va el texto va con auto si no no funciona ---->
+	font-weight: bold;
+	margin-top: 10em auto;
+	
+	text-align: center;
+	text-shadow: 1px 1px 1px #ccc;
+	text-transform: uppercase;
+    max-width: 2500px; <!--este es el tamaño de todo lo que va en redes de los recuadros donde va el texto ---->
+}
+h3{
+	color:white;           <!--este es el color de los h2 en en ---->
+	font-size: 1em auto;  <!--este es el tamaño del recuadro gris donde va el texto va con auto si no no funciona ---->
+	font-weight: bold;
+	margin-top: 10em auto;
+	
+	text-align: center;
+	text-shadow: 1px 1px 1px #ccc;
+	text-transform: uppercase;
+    
+}
+#bloque1 li{
+	text-align: auto;
+	background-color: blue ;
+	color:white; <!--este es el color de las letras en los p ---->
+	font-size:auto;
+	font-weight: normal;
+	margin: auto ;        <!--este es el tamaño de separacion entre parrafos de los cuadros grises ---->
+    max-width:500px ;       <!--este es el tamaño de ancho de los cuadros grises ---->
+	padding: 1.5em; 
+}
+
+
+#bloque2 p {
+	background-color: hsl(200, 40%, 40%) ; <!--este es el color de los recuadros donde va el texto ---->
+	opacity: 0.90;
+	text-align: auto;
+	color:black; <!--este es el color de las letras en los p ---->
+	font-size:auto;
+	font-weight: normal;
+	margin: 1em ;        <!--este es el tamaño de separacion entre parrafos de los cuadros grises ---->
+	max-width: 500px ;       <!--este es el tamaño de ancho de los cuadros grises ---->
+	padding: 1.5em; 
+}
+#bloque3 p {
+	background-color:hsl(180, 30%, 30%); <!--este es el color de los recuadros donde va el texto ---->
+	opacity: 0.90;
+	text-align: auto;
+	color:black; <!--este es el color de las letras en los p ---->
+	font-size:auto;
+	font-weight: normal;
+	margin: 1em ;        <!--este es el tamaño de separacion entre parrafos de los cuadros grises ---->
+	max-width:500px ;       <!--este es el tamaño de ancho de los cuadros grises ---->
+	padding: 1.5em; 
+}
+	#bloque4 p {
+	background-color:hsl(185, 50%, 50%); <!--este es el color de los recuadros donde va el texto ---->
+	opacity: 0.10;
+	text-align: auto;
+	color:black; <!--este es el color de las letras en los p ---->
+	font-size:auto;
+	font-weight: normal;
+	margin: 1em ;        <!--este es el tamaño de separacion entre parrafos de los cuadros grises ---->
+	max-width:500px ;       <!--este es el tamaño de ancho de los cuadros grises ---->
+	padding: 1.5em; 
+}
+#columna{
+	float: right;
+	width: 300px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: rgb(156,10,20);
+
+}
+	
